@@ -1,0 +1,163 @@
+.pageTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 30px;
+}
+
+.pageTitle span {
+    color: #afafc8;
+    font-weight: 500;
+}
+
+.FilterActions {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.custom-select {
+    position: relative;
+    cursor: pointer;
+}
+
+.custom-select:after {
+    content: '\e5cf';
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: 'Material Icons';
+    font-size: 24px;
+    color: #3e425a;
+    pointer-events: none;
+}
+
+.custom-select input {
+    border: 0;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+}
+
+.invoiceList-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.invoiceListCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 7px rgb(0 0 0 / 5%);
+}
+
+.invoiceListCard h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.invoiceListCard h6 span {
+    margin-right: 5px;
+    color: #7d5cf9;
+}
+
+.invoiceListCard p {
+    font-size: 14px;
+    color: #afafc8;
+    font-weight: 500;
+}
+
+.invoiceListCard h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.status-btn.MuiButton-root {
+    gap: 10px;
+    color: #373749;
+    min-width: 100px;
+    text-transform: capitalize;
+    background: #f2f3f5;
+}
+
+.status-btn.MuiButton-root:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #373749;
+    display: block;
+    border-radius: 100%;
+    min-width: 8px;
+}
+
+.status-paid.MuiButton-root {
+    background: #f3fcf9;
+    color: #7fdabe;
+}
+
+.status-paid.MuiButton-root:before {
+    background: #7fdabe;
+}
+
+.status-pending.MuiButton-root {
+    background: #fff8f2;
+    color: #febe6a;
+}
+
+.status-pending.MuiButton-root:before {
+    background: #febe6a;
+}
+
+
+.newInvoiceDrawer .MuiDrawer-paper {
+    width: 50%;
+}
+
+.new-invoice-wrapper {
+    padding: 30px;
+}
+
+.formBlock {
+    margin: 0 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formBlock h6 {
+    font-size: 14px;
+    color: #7d5cf9;
+}
+
+.formBlock h5 {
+    font-size: 18px;
+    color: #767579;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.formGroup input {
+    height: auto;
+    padding: 10px;
+}
+
+.InputsGroup {
+    display: flex;
+    gap: 16px;
+}
+
+.btns-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}

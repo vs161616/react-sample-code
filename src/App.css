@@ -1,0 +1,18 @@
+.mainLayout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.pageLayout {
+  flex: 1;
+  padding: 50px 30px 30px;
+  background: #f8f7fc;
+  margin-left: 100px;
+}
+
+.LoginLayout {
+  flex: 1;
+  /* padding: 50px 30px 30px; */
+  background: #f8f7fc;
+  /* margin-left: 100px; */
+}
