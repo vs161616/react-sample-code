@@ -16,6 +16,7 @@ function App(): JSX.Element {
     <Router>
       <LoaderProvider>
         <AuthProvider>
+          
           <InvoiceProvider>
             <Layout />
           </InvoiceProvider>
