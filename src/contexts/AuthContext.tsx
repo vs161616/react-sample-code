@@ -20,7 +20,7 @@ export interface AuthContextType {
   logout: () => void;
   handleUnathorised: () => void;
 }
-
+console.log("object")
 export const AuthContext = createContext<AuthContextType | undefined>(
   undefined,
 );
