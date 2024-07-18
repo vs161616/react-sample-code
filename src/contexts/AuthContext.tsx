@@ -46,6 +46,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
    */
   const handleUnathorised = () => {
     setIsAuthenticated(false);
+  
     localStorage.removeItem("token");
     navigate("/login");
   };
@@ -53,6 +54,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
   useEffect(() => {
     const token = localStorage.getItem("token");
     if (token) {
+      console.log(token)
       setIsAuthenticated(true);
       setUserData(JSON.parse(localStorage.getItem("user") || "{}"));
     }
