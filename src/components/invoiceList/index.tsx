@@ -62,7 +62,7 @@ function InvoiceList({
     // eslint-disable-next-line no-underscore-dangle
     await markAsPaid(invoice._id);
   };
-  console.log("object")
+  
   return (
     <Box className="invoiceList-wrapper">
       {invoices.map((invoice) => (
