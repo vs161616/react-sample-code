@@ -70,7 +70,7 @@ console.log(createInvoice)
       onClose();
     },
   });
-console.log("object")
+
   const {
     values,
     handleChange,
