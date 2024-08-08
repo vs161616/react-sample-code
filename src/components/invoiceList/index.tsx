@@ -34,7 +34,7 @@ function InvoiceList({
   const { loading } = useLoader();
   const [open, setOpen] = useState(false);
   const [itemToDelete, setItemToDelete] = useState("");
-  console.log(open)
+  
 
   const handleClickOpen = () => {
     setOpen(true);
