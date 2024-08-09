@@ -39,7 +39,7 @@ function InvoiceList({
   const handleClickOpen = () => {
     setOpen(true);
   };
-
+console.log("object")
   const handleClose = () => {
     setOpen(false);
     setItemToDelete("");
